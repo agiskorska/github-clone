@@ -1,0 +1,20 @@
+.root {
+    margin: auto;
+    width: 80%;
+    height: 150px;
+    border: 1px solid gray;
+
+}
+
+.pill {
+    margin: 20px;
+    padding: 2px 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+.title{
+    text-decoration: none;
+    font-size: 25px; 
+    color: rgb(52, 52, 249);
+}
