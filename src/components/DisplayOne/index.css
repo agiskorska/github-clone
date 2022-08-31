@@ -23,3 +23,18 @@
 .title:hover{
     text-decoration: underline;
 }
+
+.icons-wrapper{
+    color: #8B949E;
+    padding: 10px 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-wrapper >* {
+    color: #8B949E;
+
+}
