@@ -5,7 +5,6 @@ import { faCodeFork, faStar } from '@fortawesome/free-solid-svg-icons'
 import './index.css'
 
 function index({data}) {
-  console.log(data)
   return (
     <div className='root'>
       <a className='title' href={data["html_url"]}>{data.name}</a><span className='pill'>{data.visibility}</span>
