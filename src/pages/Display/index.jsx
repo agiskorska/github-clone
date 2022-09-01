@@ -39,7 +39,7 @@ const index = () => {
   return (
     <div className = 'formSearch'>
         <SearchForm handleSearch={handleSearch} />
-        <Filters filters={filters} setFilters={setFilters} />
+        {!slug ? '' : <Filters filters={filters} setFilters={setFilters} />}
         {isLoading ? <em>Loading</em> :repos.map((s) => <DisplayOne key={s.id} data={s}/>)}
     </div>
   );
