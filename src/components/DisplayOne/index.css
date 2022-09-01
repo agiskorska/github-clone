@@ -1,0 +1,40 @@
+.root {
+    margin: auto;
+    width: 80%;
+    height: 150px;
+    border: 1px solid gray;
+    padding: 30px;
+
+}
+
+.pill {
+    margin: 20px;
+    padding: 2px 15px;
+    border: 1px solid gray;
+    border-radius: 25px;
+}
+
+.title{
+    text-decoration: none;
+    font-size: 40px; 
+    color: #4796F8;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.icons-wrapper{
+    color: #8B949E;
+    padding: 10px 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-wrapper >* {
+    color: #8B949E;
+
+}
